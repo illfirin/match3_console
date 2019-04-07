@@ -77,7 +77,7 @@ function matchesExist()
 
     while table[i][c] == table[i][c+1] and c ~= N+1
       if count >= 3 then
-        return
+        return true
       else
         count = count + 1
         c = c + 1
